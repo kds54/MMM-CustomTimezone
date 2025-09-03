@@ -1,0 +1,30 @@
+/* MMM-CustomTimezone.css */
+
+.custom-timezone {
+    text-align: left;
+    //color: white;
+    color: "rgba(255, 255, 255, 0.3)";
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+.custom-timezone .time {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1;
+    color: inherit;
+}
+
+.custom-timezone .timezone {
+    font-size: .75em;
+    margin-left: 0.3em;
+    font-weight: 300;
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .custom-timezone .time {
+        font-size: 1.5em;
+    }
+}
